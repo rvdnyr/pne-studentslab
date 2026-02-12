@@ -13,7 +13,7 @@
 
 def score_letter(score):
     if 9 <= score <= 10:
-        return "Score " + str(score) + " --> A"
+        return "Score " + str(score) + " --> A" # como devuelve un string, hay que transformar el número a str, y para unirlos se pone el +
     elif 7 <= score <= 8.9:
         return "Score " + str(score) + " --> B"
     elif 5 <= score <= 6.9:
