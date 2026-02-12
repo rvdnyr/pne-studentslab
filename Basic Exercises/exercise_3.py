@@ -16,7 +16,7 @@ for i in temperatures:
     if i >= 17:
         t_above += 1
 
-temperatures.sort()
+temperatures.sort() # organizes the elements of a list in ascending or descending order
 
 print("Wednesday Tª:", temperatures[1])
 print("Max Tª:", max(temperatures))
