@@ -21,4 +21,4 @@ print("Title case:", t_stripped.title())
 print("Starts with:", t_stripped.startswith("Hello"))
 print("Ends with:", t_stripped.endswith("ing."))
 print("Python position:", t_stripped.find("Python"))
-print("Joined:", " - ".join(text.split())) # revisar esto
+print("Joined:", ' - '.join(words_split)) # poner la wea esa delante pa unir
