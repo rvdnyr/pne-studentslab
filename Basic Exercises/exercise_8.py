@@ -37,7 +37,7 @@ for student in students:
     print("Name:", student["name"])
     print("Average:", averages(student["grades"]))
     print("Status:", get_status(averages(student["grades"])))
-    print("")
+    print(" ")
 
     if "PASS" in get_status(averages(student["grades"])):
         passed += 1
