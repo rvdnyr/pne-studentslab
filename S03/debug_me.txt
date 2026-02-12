@@ -1,0 +1,3 @@
+The problem appears when printing Result 2. This is because the variables c and d are the same number,
+so when the function g is called inside function f, t1 is going to be 0, and the ZeroDivisionError appears in line 11.
+This will happen everytime the variables c and d are the same. That's why results 3 and 4 are correctly computed.
